@@ -19,7 +19,9 @@ This is a  part_1 to understand the integration of BottomNavigation using Androi
        ```
    
 ## App demo
-<img src="https://github.com/aman1sr/Compose-NewsApp-CleanArchitecture/blob/main/app/screenshots/bottom_nav_mvvm_newsapp.gif?raw=true" width="300"/>
+<p align="center">
+  <img src="https://github.com/aman1sr/Compose-NewsApp-CleanArchitecture/blob/main/app/screenshots/bottom_nav_mvvm_newsapp.gif?raw=true" width="400"/>
+</p>
 
 
 ---
