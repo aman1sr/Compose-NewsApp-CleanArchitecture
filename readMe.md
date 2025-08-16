@@ -3,8 +3,7 @@
 ## Overview
 This is a  part_2 to understand the integration of Hilt library in Android For Network Calling and Fetching News
 
-![Sample GIF]([https://gifdb.com/images/high/emmitt-smith-two-peace-sign-zibr6uikcf1hvmaz.gif])
-
+![Sample GIF](https://gifdb.com/images/high/emmitt-smith-two-peace-sign-zibr6uikcf1hvmaz.gif)
 
 ## Overview of BottomNavigation impl 
  (in progress)
