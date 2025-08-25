@@ -13,7 +13,8 @@ A modern News App built showcasing clean architecture principles and best practi
     - 📌WorkManager 
     - 📌Firebase Integration 
 
-![Sample GIF](https://gifdb.com/images/high/emmitt-smith-two-peace-sign-zibr6uikcf1hvmaz.gif)
+![News App Demo](https://media.giphy.com/media/6zwCn1vbgaYZDVnQt2/giphy.gif)
+
 
 ## 💡 What You’ll Learn Here 
     - Clean integration of Room + Retrofit + Hilt   
