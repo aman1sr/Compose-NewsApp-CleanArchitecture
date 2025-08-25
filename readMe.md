@@ -1,28 +1,37 @@
 # MVVM Clean Arch NewsApp
 
 ## Overview
-This is a  part_1 to understand the integration of BottomNavigation using AndroidX libraries
+A modern News App built showcasing clean architecture principles and best practices.
 
-![Sample GIF](https://media.tenor.com/wXUw6BcUiBAAAAAM/spongebob-squarepants-cheer.gif)
+## 🚀 Features Implemented
+    - ✅ Bottom Navigation (branch: feat/simple_bottom_nav_impl)
+    - ✅ Hilt DI Integration for Network Calling  (branch: feat/network_layer_hilt)
+    - 📌Unit Test cases (In progress)
+    - 📌Room Database 
+    - 📌Top App Bar 
+    - 📌Coroutines & Flow Adv usecase
+    - 📌WorkManager 
+    - 📌Firebase Integration 
 
-## Overview of BottomNavigation impl 
-- use of Route as a sealed class for type-safe navigation
-- use of Navigation states for holding the current screen information
-- use of Scaffold as main layout structure carring predefine slots for Common UI eg (bottomNav)
-- use of NavHost as a container for managing the navigation graph (linking routes with its corresponding composables UI screens)
+![Sample GIF](https://gifdb.com/images/high/emmitt-smith-two-peace-sign-zibr6uikcf1hvmaz.gif)
+
+## 💡 What You’ll Learn Here 
+    - Clean integration of Room + Retrofit + Hilt   
+    - RoomDB for Offline caching with a single source of truth
+    - Coroutine and Flow Advance usecase for Instant search
+    - Using WorkManager for periodic news fetching
+    - Firebase storage for media uploads
+    - Structuring modular, testable code
+
+## 🏗️ Tech Stack & Tools
+    - Kotlin – primary development language
+    - Jetpack Components: ViewModel, LiveData/Flow, Room, WorkManager
+    - Dependency Injection – Hilt
+    - Network Layer – Retrofit + OkHttp
+    - Image Handling – Firebase Storage
+    - Unit Testing – JUnit, Mockito, Truth (Work in progress)
 
 
-## Dependency required
 
-       ```
-        //Navigation Components
-   implementation("androidx.navigation:navigation-compose:2.6.0")
-      ```
-   
-
-
----
-##  Article references:
-- [Special Thanks : khush panchal](https://github.com/khushpanchal/NewsApp/tree/master)
-- [Article Link: Google Official doc](https://developer.android.com/develop/ui/compose/components/navigation-bar)
-- [Article Link: Medium](https://medium.com/@ramadan123sayed/simple-guide-to-hilt-dependency-injection-in-android-with-jetpack-compose-and-ksp-3ddcbfaad37d)
+[Special Thanks : khush panchal](https://github.com/khushpanchal/NewsApp/tree/master)
+ 
