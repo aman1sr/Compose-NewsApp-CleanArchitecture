@@ -1,38 +1,38 @@
 # MVVM Clean Arch NewsApp
 
 ## Overview
-A modern News App built showcasing clean architecture principles and best practices.
+This is a  part 2 to understand the integration of Hilt DI for network calling
 
-## 🚀 Features Implemented
-    - ✅ Bottom Navigation (branch: feat/simple_bottom_nav_impl)
-    - ✅ Hilt DI Integration for Network Calling  (branch: feat/network_layer_hilt)
-    - 📌Unit Test cases (In progress)
-    - 📌Room Database 
-    - 📌Top App Bar 
-    - 📌Coroutines & Flow Adv usecase
-    - 📌WorkManager 
-    - 📌Firebase Integration 
+![Sample GIF](https://mir-s3-cdn-cf.behance.net/project_modules/source/5eeea355389655.59822ff824b72.gif)
 
-![News App Demo](https://media.giphy.com/media/6zwCn1vbgaYZDVnQt2/giphy.gif)
+## Overview of Hilt impl
+- 
 
 
-## 💡 What You’ll Learn Here 
-    - Clean integration of Room + Retrofit + Hilt   
-    - RoomDB for Offline caching with a single source of truth
-    - Coroutine and Flow Advance usecase for Instant search
-    - Using WorkManager for periodic news fetching
-    - Firebase storage for media uploads
-    - Structuring modular, testable code
+## Dependency required
 
-## 🏗️ Tech Stack & Tools
-    - Kotlin – primary development language
-    - Jetpack Components: ViewModel, LiveData/Flow, Room, WorkManager
-    - Dependency Injection – Hilt
-    - Network Layer – Retrofit + OkHttp
-    - Image Handling – Firebase Storage
-    - Unit Testing – JUnit, Mockito, Truth (Work in progress)
+       ```
+     //coil
+    implementation("io.coil-kt.coil3:coil-compose:3.3.0")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.3.0")
+    
+     //Retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.5.0")
+
+    // Dagger-Hilt ( check kotlin version compactible with hilt : https://stackoverflow.com/a/68319048)
+    implementation ("com.google.dagger:hilt-android:2.57.1")
+    kapt ("com.google.dagger:hilt-compiler:2.57.1")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
+       ```
+   
+## App demo
+<p align="center">
+  <img src="https://github.com/aman1sr/Compose-NewsApp-CleanArchitecture/blob/feat/network_layer_hilt/app/screenshots/hilt_di.gif?raw=true" width="400"/>
+</p>
 
 
-
-[Special Thanks : khush panchal](https://github.com/khushpanchal/NewsApp/tree/master)
- 
+---
+##  Article references:
+- [Article Link: Google Official doc](https://developer.android.com/training/dependency-injection/hilt-android)
