@@ -13,6 +13,7 @@ This is a  part_1 to understand the integration of BottomNavigation using Androi
 <br>
 <br>
 <br>
+
 [![Read the Full Article on Medium](https://img.shields.io/badge/Read%20More%20on-Medium-green?logo=medium)](https://medium.com/@aman1024/bottom-nav-integration-in-newsapp-part-1-4bb868b8f62f)
 
 
