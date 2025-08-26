@@ -3,10 +3,20 @@
 ## Overview
 This is a  part 2 to understand the integration of Hilt DI for network calling
 
-![Sample GIF](https://mir-s3-cdn-cf.behance.net/project_modules/source/5eeea355389655.59822ff824b72.gif)
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/source/5eeea355389655.59822ff824b72.gif" alt="Sample GIF" width="300" height="300">
+
 
 ## Overview of Hilt impl
-- 
+- Specify the endpoint and request method in your NetworkService interface
+- Create a Retrofit Instance: Use the Retrofit Builder, pass the following parameters: Base URL, API Key, Gson Converter Factory, Custom OkHttp (optional)
+- Finally, Create an instance of NetworkService using Retrofit to make your request methods (GET/POST) available.
+
+<br>
+<br>
+<br>
+🎬 See it in Action, Lets have a Comprehensive walkthrough
+
+[![Read the Full Article on Medium](https://img.shields.io/badge/Read%20More%20on-Medium-green?logo=medium)](https://medium.com/@aman1024/network-calling-in-android-via-retrofit-hilt-di-part-2-caa21afe2c39)
 
 
 ## Dependency required
