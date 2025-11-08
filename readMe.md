@@ -6,12 +6,13 @@ A modern News App built showcasing clean architecture principles and best practi
 ## 🚀 Features Implemented
     - ✅ Bottom Navigation (branch: feat/simple_bottom_nav_impl)
     - ✅ Hilt DI Integration for Network Calling  (branch: feat/network_layer_hilt)
-    - 📌Unit Test cases (In progress)
-    - 📌Room Database 
-    - 📌Top App Bar 
-    - 📌Coroutines & Flow Adv usecase
-    - 📌WorkManager 
-    - 📌Firebase Integration 
+    - 📌 MVVM Architecture (In progress)
+    - 📌 Coroutines
+    - 📌 Flow
+    - 📌 Offline caching (single source of truth)
+    - 📌 Pagination
+    - 📌 Unit Test and UI Test
+    - 📌 WorkManager
 <br>
 <br>
 > 📖 For a comprehensive deep dive into each feature (with code samples and dev insights), check out the [Medium blog walkthrough](https://medium.com/@aman1024)
@@ -32,7 +33,7 @@ A modern News App built showcasing clean architecture principles and best practi
     - Dependency Injection – Hilt
     - Network Layer – Retrofit + OkHttp
     - Image Handling – Firebase Storage
-    - Unit Testing – JUnit, Mockito, Truth (Work in progress)
+    - Unit Testing – JUnit, Mockito, Truth 
 
 
 
